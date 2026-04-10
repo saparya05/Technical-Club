@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Us | Technical Club</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 class="logo">Technical Club</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="events.html">Events</a>
+<a href="team.html">Team</a>
+<a href="contact.html">Join</a>
+</nav>
+
+<button onclick="toggleTheme()" class="theme-btn">🌙</button>
+
+</header>
+
+
+<section class="contact-section">
+
+<h2>Join the Technical Club</h2>
+
+<form id="joinForm" class="contact-form">
+
+<label>Name</label>
+<input type="text" id="name">
+<span class="error" id="nameError"></span>
+
+<label>Email</label>
+<input type="text" id="email">
+<span class="error" id="emailError"></span>
+
+<label>Phone</label>
+<input type="text" id="phone">
+<span class="error" id="phoneError"></span>
+
+<label>Year / Section</label>
+<input type="text" id="year">
+
+<label>Area of Interest</label>
+<input type="text" id="interest">
+
+<button type="submit" class="submit-btn">Register</button>
+
+</form>
+
+</section>
+
+
+<footer>
+<p>© 2026 Technical Club | BVCOE New Delhi</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
