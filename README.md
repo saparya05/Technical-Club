@@ -67,8 +67,7 @@ This project is deployed using GitHub Pages:
 
 👉 Live Demo:  
 ```
-
-https://your-username.github.io/tech-club-portal/
+https://saparya05.github.io/Technical-Club/
 
 ```
 
